@@ -1,0 +1,45 @@
+{
+  "name": "Locomotive on Heroku (CodeCo Modified)",
+  "description": "Locomotive is the most innovative Ruby on Rails site publishing platform. It is used by thousand of developers in the world.",
+  "logo": "https://avatars0.githubusercontent.com/u/340986",
+  "repository": "https://github.com/locomotivecms/engine",
+  "success_url": "/",
+  "keywords": ["locomotivecms", "rails", "ruby", "cms"],
+  "addons": [
+    "mongolab",
+  ],
+  "env": {
+    "BUNDLE_WITHOUT": {
+      "description": "Don't change this value.",
+      "value": "development:test"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The name you filled in for App Name at the top of this form.",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "The API key of your user.",
+      "required": true
+    },
+    "S3_KEY_ID": {
+      "description": "Set your AWS Access Key ID to enable S3 file storage.",
+      "required": true
+    },
+    "S3_SECRET_KEY": {
+      "description": "AWS Access Secret Key.",
+      "required": true
+    },
+    "S3_BUCKET": {
+      "description": "Name of your S3 bucket on AWS.",
+      "required": true
+    },
+    "S3_BUCKET_REGION": {
+      "description": "Region of your S3 bucket on AWS.",
+      "required": true
+    },
+    "S3_ASSET_HOST_URL": {
+      "description": "Optional custom CDN asset host url.",
+      "required": false
+    }
+  }
+}
