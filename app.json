@@ -1,8 +1,8 @@
 {
   "name": "Locomotive on Heroku (CodeCo Modified)",
   "description": "Locomotive is the most innovative Ruby on Rails site publishing platform. It is used by thousand of developers in the world.",
-  "logo": "https://avatars0.githubusercontent.com/u/340986",
-  "repository": "https://drewski85@bitbucket.org/drewski85/locomotive-engine.git",
+  "logo": "https://avatars0.githubusercontent.com/u/7682746",
+  "repository": "https://github.com/drewski85/locomotive.git",
   "success_url": "/",
   "keywords": ["locomotivecms", "rails", "ruby", "cms"],
   "addons": [
