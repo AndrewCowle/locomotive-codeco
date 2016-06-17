@@ -34,6 +34,8 @@ Follow the steps and you will be up and running in no time!
 
 If you have problems, check the [official documentation](https://locomotive-v3.readme.io/) or open an [issue](https://github.com/locomotivecms/engine/issues). If there is an issue in the process of deploying to heroku, then [open an issue here](https://github.com/locomotivecms/heroku-instant-deploy).
 
-## License
+## License-----
+
+
 
 Copyright (c) 2015 NoCoffee, released under the [MIT license](./LICENSE)
