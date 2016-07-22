@@ -6,7 +6,7 @@ Locomotive is designed to save your time and help you focus on what matters: fro
 
 To get your own Locomotive running on Heroku, click the button below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/drewski85/locomotive.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/drewski85/locomotive-codeco.git)
 
 Follow the steps and you will be up and running in no time!
 
