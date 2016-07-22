@@ -19,7 +19,7 @@ Rails.application.configure do
     :port           => 587,
     :authentication => :plain,
     :user_name      => ENV['MG_USER_NAME'],
-    :password       => ENV['PASSWORD'],
+    :password       => ENV['MG_PASSWORD'],
     :domain         => ENV['MG_DOMAIN']
 }
 
